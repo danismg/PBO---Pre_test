@@ -8,7 +8,7 @@ Seorang pria ingin memperkenalkan kekasihnya kepada keluarganya. Namun, keluarga
 Berdasarkan marga keluarga mereka, tolong periksa apakah mereka dapat menikah atau tidak.
 <br>
 
-Pada input terdapat 2 segment yaitu input pertama mendeskripsikan `marga ayah pria` dan input kedua mendeskripsikan `marga ayah kekasih`. Kedua input tersebut menggunakan kecil/_lowercase_ dengan tipe data `string`. Program akan menentukan apakah pria dan kekasihnya dapat menikah atau tidak dalam bentuk 1 baris luaran(output) **Yes** or **No**.
+Pada input terdapat 2 segment yaitu input pertama mendeskripsikan `marga ayah pria` yang sesuai dengan gambar dan input kedua mendeskripsikan `marga ayah kekasih`. Kedua input tersebut menggunakan kecil/_lowercase_ dengan tipe data `string`. Program akan menentukan apakah pria dan kekasihnya dapat menikah atau tidak dalam bentuk 1 baris luaran(output) **Yes** or **No**.
 <br>
 
 **Perhatikan format struktur input :**
@@ -34,7 +34,7 @@ Berikut adalah contoh masukan yang diberikan.
 
 ```
 sitorus
-pardede
+
 
 ```
 
@@ -51,6 +51,23 @@ Berikut adalah contoh masukan yang diberikan.
 
 ```
 sitorus
+sitorus
+
+```
+
+Berikut adalah keluaran yang diharapkan.
+
+```
+no
+
+```
+
+#### Example 3:
+
+Berikut adalah contoh masukan yang diberikan.
+
+```
+pardede
 sitorus
 
 ```
